@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](content/README.md)
+* [Introduction](README.md)
 * [Programming Fundamentals](content/fundamentals/README.md)
   * [What is a Variable?](content/fundamentals/variable.md)
   * [What is an if Statement?](content/fundamentals/if-statement.md)
