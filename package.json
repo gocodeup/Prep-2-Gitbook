@@ -13,7 +13,10 @@
         "url": "https://github.com/bbatsche/Sample-Gitbook.git"
     },
     "contributors": [
-        "Ben Batschelet <ben@codeup.com>"
+        "Ben Batschelet <ben@codeup.com>",
+        "Isaac Castillo <isaac@codeup.com>",
+        "Ryan Orsinger <ryan@codeup.com>",
+        "Thomas J. Laffoon <thomas@codeup.com>"
     ],
     "license": "Proprietary",
     "private": true,
