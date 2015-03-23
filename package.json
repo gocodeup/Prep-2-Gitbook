@@ -1,6 +1,6 @@
 {
-    "name": "Codeup-Sample-Gitbook",
-    "description": "Sample Gitbook to use as a base for additional book development",
+    "name": "Codeup-Prework-Gitbook",
+    "description": "Prework for students applying for--and accepted to--Codeup Bootcamps",
     "dependencies": {
         "gitbook": "^1.0.0",
         "gitbook-plugin-anchors": "^0.4",

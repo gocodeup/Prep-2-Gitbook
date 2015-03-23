@@ -1,6 +1,6 @@
 {
-    "title": "Sample Gitbook",
-    "description": "Sample Gitbook to use as a base for additional book development",
+    "title": "Codeup Student Prework",
+    "description": "Prework for students applying for--and accepted to--Codeup Bootcamps",
     "plugins":[
         "scrollablecode",
         "toggle-chapters",
