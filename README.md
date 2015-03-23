@@ -1,6 +1,6 @@
-# Codeup Sample Gitbook
+# Prework Gitbook
 
-The purpose of this repository is to give us a common set of tools and standards for writing Gitbooks. It is intended to be used as a base repository that all our actual books can fork and add content to. This way we can all use the same basic set of utilities and features across the board.
+This Gitbook contains lesson material for students applying to Codeup bootcamps.
 
 ## Initial Setup
 
