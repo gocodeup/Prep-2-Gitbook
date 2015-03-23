@@ -10,7 +10,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/bbatsche/Sample-Gitbook.git"
+        "url": "https://github.com/gocodeup/Prework-Gitbook.git"
     },
     "contributors": [
         "Ben Batschelet <ben@codeup.com>",
@@ -21,7 +21,7 @@
     "license": "Proprietary",
     "private": true,
     "bugs": {
-        "url": "https://github.com/bbatsche/Sample-Gitbook/issues"
+        "url": "https://github.com/gocodeup/Prework-Gitbook/issues"
     },
-    "homepage": "https://github.com/bbatsche/Sample-Gitbook"
+    "homepage": "https://github.com/gocodeup/Prework-Gitbook"
 }
