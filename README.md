@@ -2,6 +2,8 @@
 
 This Gitbook contains lesson material for students applying to Codeup bootcamps.
 
+![Codeship Status](https://codeship.com/projects/1865c6b0-bab8-0132-aa3a-463450aa6c55/status?branch=master)
+
 ## Initial Setup
 
 If you're just getting started writing a Gitbook, there's a handful of commandline tools you'll need to install, and only a couple of files to change before you begin adding content.
