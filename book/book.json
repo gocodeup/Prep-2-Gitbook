@@ -1,12 +1,13 @@
 {
     "title": "Codeup Student Prework",
     "description": "Prework for students applying for--and accepted to--Codeup Bootcamps",
-    "gitbook": ">=2.1.0",
+    "gitbook": ">=2.3.2",
     "plugins":[
         "scrollablecode",
         "jsbin",
         "youtubex",
-        "collapsible-menu"
+        "collapsible-menu",
+        "codepen"
     ],
     "links": {
         "sharing": {
