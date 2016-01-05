@@ -3,7 +3,6 @@
 require 'dotenv'
 
 require 'optparse'
-require 'fileutils'
 
 require 'rubygems'
 require 'bundler/setup'
@@ -15,9 +14,6 @@ require 'mime/types'
 Dotenv.load
 
 class S3FolderUpload
-  attr_reader :folder_path, :total_files, :s3_bucket
-  attr_accessor :files
-
   # Initialize the upload class
   #
   # folder_path - path to the folder that you want to upload
@@ -77,7 +73,7 @@ end
 # Parse CLI Options
 options = {
   :bucket     => ENV['BUCKET'],
-  :build_dir  => 'build',
+  :upload_dir => '',
   :aws_key    => ENV['AWS_ACCESS_KEY_ID'],
   :aws_secret => ENV['AWS_SECRET_ACCESS_KEY']
 }
@@ -87,8 +83,8 @@ parser = OptionParser.new do |opts|
     options[:bucket] = b
   end
 
-  opts.on('-o', '--output_dir=DIRECTORY', "Build directory (Default: \"#{options[:build_dir]}\")") do |o|
-    options[:build_dir] = o
+  opts.on('-d', '--dir=DIRECTORY', "Directory to upload") do |d|
+    options[:upload_dir] = d
   end
 
   opts.on('-k', '--aws_key=KEY', "AWS Upload Key (Required, default: \"#{options[:aws_key]}\")") do |k|
@@ -107,35 +103,12 @@ end
 
 parser.parse!
 
-if options[:bucket] == nil || options[:aws_key] == nil || options[:aws_secret] == nil
+if options[:bucket] == nil || options[:aws_key] == nil || options[:aws_secret] == nil || options[:upload_dir] == ''
   puts parser
   exit
 end
 
-# Build book
-abort 'Failed to install book requirements' unless system 'gitbook', 'install', 'book'
-abort 'Failed to build book!' unless system 'gitbook', 'build', 'book', options[:build_dir], '--format', 'website'
-
-# Strip double slashes
-gitbook_css = File.join(options[:build_dir], 'gitbook', '*.css')
-
-Dir.glob gitbook_css do |css|
-  puts "Removing double slash from #{css}"
-
-  f = File.new(css, 'r+')
-
-  content = f.read.gsub(/\.\/\/fonts/, "./fonts")
-
-  f.truncate 0
-  f.rewind
-
-  f.write content
-end
-
 # Deploy
-uploader = S3FolderUpload.new(options[:build_dir], options[:bucket], options[:aws_key], options[:aws_secret])
+uploader = S3FolderUpload.new(options[:upload_dir], options[:bucket], options[:aws_key], options[:aws_secret])
 uploader.upload!
 uploader.cleanup!
-
-# Cleanup build directory
-FileUtils.remove_dir options[:build_dir]
