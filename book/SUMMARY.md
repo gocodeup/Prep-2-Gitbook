@@ -1,6 +1,8 @@
 # Summary
 
-* [Introduction](README.md)
+* [Welcome!](README.md)
+* [Getting Started](content/prework/getting-started.md)
+* [Required Software](content/prework/required_software/README.md)
 * [Prerequisites](content/prework/README.md)
     * [Programming Fundamentals](content/prework/fundamentals/README.md)
       * [What is a Variable?](content/prework/fundamentals/variable.md)
@@ -21,7 +23,7 @@
         * [Listing Files](content/prework/cli/02-listing-files.md)
         * [Understanding File Paths](content/prework/cli/03-file-paths.md)
         * [Navigating the Filesystem](content/prework/cli/04-navigating-the-filesystem.md)
-        * [Creating Files and Directories](content/prework/cli/05-creating-files-and-directories.md)
+        * [Creating Files & Directories](content/prework/cli/05-creating-files-and-directories.md)
         * [Moving Files](content/prework/cli/06-moving-files.md)
     * [Version Control and Git](content/prework/versioning/README.md)
       * [Git](content/prework/versioning/git.md)
@@ -34,7 +36,6 @@
     * [Virtualization](content/prework/virtualization/README.md)
       * [Intro to Virtualization](content/prework/virtualization/virtualization.md)
       * [Introducing Virtual Machines](content/prework/virtualization/virtual_machines.md)
-* [Required Software](content/prework/required_software/README.md)
 * [HTML](content/html-css/README.md)
     * [Elements](content/html-css/elements-i/README.md)
         * [Headings](content/html-css/elements-i/headings.md)

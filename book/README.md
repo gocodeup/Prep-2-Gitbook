@@ -1,27 +1,32 @@
-# Codeup Bootcamp Pre-work
+# Codeup Prework
 
-The Codeup Bootcamp is an immersion programming bootcamp that creates web developers.
+Codeup is a community of individuals who want to help you become the best possible version of yourself. Through our in-person coding experience, you and your new peers will be surrounded by constant opportunities to learn and apply programming and creative problem-solving skills. This 16-week journey will open up possibilities in ways that you might not even imagine right now!
 
-During this prework course, we will learn about the languages and technologies used in web development.
+Always remember: this transformative process is much more than code. You’ll also progress through our Student Success program that centers on job-readiness and hireability; you’ll hear from industry professionals on a weekly basis during our Lunchtime Speaker series; and you’ll be mentored by experienced developers all the while.
+
+Prework will launch you towards a much greater understanding of the technologies that you'll use to build out programming exercises and real-world applications. Throughout the Prework, you'll be gaining and actively applying new skills, such that&mdash;when you reach the finish line&mdash;you'll have several complete coding exercises to show for it.
+
+If at any time through this material you have any questions, comments, or concerns, please email instructors@codeup.com.
+
+Welcome to `#codeupfam` - we’re so happy you’re joining us :-)
 
 ## A note from our instructors
 
-Dear programming student,
+Dear Codeup student,
 
-First of all, thank you so much for choosing Codeup. We understand that you have taken a huge step forward to change your career and life. In order to best prepare you for the challenges ahead, we have written and designed this prework book to familiarize you with the concepts and topics we will be discussing in further detail in our class.
+First of all, thank you so much for choosing Codeup. We understand that you have taken a huge step forward to change your career and your life. In order to best prepare you for the challenges ahead, we have written and designed this Prework to familiarize you with the concepts and topics we will be discussing in further detail on campus.
 
-Our course work moves at a rapid pace, and will cover a great deal of material in a very short period of time, but our focus is to help you understand the fundamentals of how to build a web application from scratch and have 95% of the things you need to know before you start a programming job. The other 5% will be learned on the job.
+Codeup's curriculum moves at a rapid pace and will cover a great deal of material in a very short period of time. Our goal is to familiarize you as much as possible with the world of web development and teach you a set of transferable skills that will help you continue to learn once you enter the programming workplace. As such, you will be pushed to learn concepts quickly, to build, break, and re-build code, and to jump into programming from day one.
 
-You will be pushed to learn things quickly, to make mistakes and correct them as soon as possible, and you will be coding from day one. There will be only a few moments when your computer is not being used for coding, and those moments are used to develop you as a professional. You need to be hirable, of course, and we want to make sure you are ready to start a great career in programming as soon as you complete the program.
-
-It's going to be tough and fast-paced, but you were chosen to be a part of this program for a reason, and we are going to do our best to ensure that you get a job after Codeup. If you don't succeed, that means we failed, and we should not profit off of that.
+The Codeup experience is going to be tough and fast-paced, but you were chosen to be a part of this program for a reason, and we will do everything in our power to prepare you for your next great adventure. We are going to do our absolute best to ensure that you find what you are looking for when you graduate from Codeup.
 
 Once again, thank you for choosing Codeup. You are in great hands.
 
 ```php
 <?php
 
-function sayHello() {
+function sayHello()
+{
     echo "Hello, future programmer! Welcome to Codeup!";
 }
 
