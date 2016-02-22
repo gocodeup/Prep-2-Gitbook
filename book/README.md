@@ -2,7 +2,7 @@
 
 The Codeup Bootcamp is an immersion programming bootcamp that creates web developers.
 
-During this pre-work course, we will learn about the languages and technologies used in web development.
+During this prework course, we will learn about the languages and technologies used in web development.
 
 ## A note from our instructors
 
