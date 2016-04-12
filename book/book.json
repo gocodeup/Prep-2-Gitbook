@@ -22,7 +22,7 @@
         }
     },
     "variables": {
-        "curriculumName": "prework"
+        "curriculumName": "prep2"
     },
     "search": {
         "maxIndexSize": 1000000000
